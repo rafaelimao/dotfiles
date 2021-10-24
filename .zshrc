@@ -101,11 +101,11 @@ source $ZSH/oh-my-zsh.sh
 alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim=nvim
 alias cat=batcat
-alias polybar=polybar-git
 alias please=sudo
-alias notes="python3 ~/tnote/tnote"
 alias python=python3
 alias bright="sudo brightnessctl set 255"
+alias softwaregl="LIBGL_AWLAYS_SOFTWARE=1"
+alias deltarune="softwaregl wine '~/.wine/drive_c/Program Files (x86)/SURVEY_PROGRAM/DELTARUNE.exe'"
 export PATH=$HOME/.config/rofi/bin:$PATH
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -154,4 +154,4 @@ zinit light zdharma/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 export PATH='/home/rafaelimao/.local/bin:/home/rafaelimao/.zinit/polaris/bin:/home/rafaelimao/.config/rofi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafaelimao/.fzf/bin'
-alias emacs=emacs -nw
+alias neofetch=neofetch --crop-mode=fill
